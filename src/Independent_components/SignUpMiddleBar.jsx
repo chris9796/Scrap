@@ -12,7 +12,9 @@ function SignUpMiddleBar(){
             fontSize : "100px",
             textAlign :'center'
         }}>Sign Up</div>
-            <Input/>
+            <Input style={{
+                
+            }}/>
        </div>
     );
 

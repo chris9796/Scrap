@@ -4,7 +4,7 @@ function SectionTitle(props){
 
     return(
         <span style={{
-            fontSize : "100px",
+            fontSize : "",
             color: "white"
         }}>
             {props.title}
