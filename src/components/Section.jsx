@@ -5,9 +5,10 @@ function Section(){
 
     return(
         <section>
-            <SectionTitle title="Scrap" size="100"/>
+            <SectionTitle title="Scrap" size="100px"/>
         </section>   
     );
+
 }
 
 export default Section;

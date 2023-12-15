@@ -1,12 +1,12 @@
 import React from "react";
 
 function SectionTitle(props){
-
+    const style = {
+        fontSize: props.size,
+        color:"white"
+    }
     return(
-        <span style={{
-            fontSize : "",
-            color: "white"
-        }}>
+        <span style={style}>
             {props.title}
         </span>
     );
