@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     
-      <Link to="/"></Link>
+   
 
       <Routes>
           <Route path="/" element={<Index/>}/>

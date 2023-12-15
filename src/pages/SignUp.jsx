@@ -7,6 +7,7 @@ function SignUp(){
     return(
         <div className="Page">
             <NavBar/>
+             
         </div>
 
     );
