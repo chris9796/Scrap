@@ -4,11 +4,12 @@ import "../components_css/Page.css"
 import "../components_css/NavBar.css";
 import NavLogo from '../components/NavLogo';
 import NavButton from '../components/NavButton.jsx';
-import UrlInput from "../components/UrlInput.jsx";
 import AsideUserBox from "../components/AsideUserBox.jsx";
 import AsideButton from "../components/AsideButton.jsx";
 import AsideTitle from "../components/AsideTitle.jsx";
-function UserHome(){
+import SectionTitle from "../components/SectionTitle.jsx";
+import SectionScrapCard from "../components/SectionScrapCard .jsx";
+function MyScraps(){
 
 
     return(
@@ -48,15 +49,17 @@ function UserHome(){
             </div>
 
         </aside>
-        <section style={{
-            
-            alignItems:"center",
-           
-        }}>
-          <Link to="/UserHomeAfter">
-            <UrlInput/>
-            </Link>
-          
+        <section>
+        <SectionTitle title="My Scraps" size="60px"/>
+            <div className="SectionScrapCardBox"
+            style={{
+                position:"flex",
+                
+            }}>
+                <SectionScrapCard title="im shinhan" UrlSource="" />
+                <SectionScrapCard title="나는야 영끌족" UrlSource=""/>
+                <SectionScrapCard title="나는야 바보" UrlSource=""/>
+            </div>
         </section>
 
 
@@ -64,4 +67,4 @@ function UserHome(){
     );
 }
 
-export default UserHome;
+export default MyScraps;

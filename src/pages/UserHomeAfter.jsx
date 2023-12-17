@@ -8,7 +8,9 @@ import UrlInput from "../components/UrlInput.jsx";
 import AsideUserBox from "../components/AsideUserBox.jsx";
 import AsideButton from "../components/AsideButton.jsx";
 import AsideTitle from "../components/AsideTitle.jsx";
-function UserHome(){
+import SectionScrapList from "../components/SectionScrapList.jsx";
+import SectionButton from "../components/SectionButton";
+function UserHomeAfter(){
 
 
     return(
@@ -49,14 +51,12 @@ function UserHome(){
 
         </aside>
         <section style={{
-            
             alignItems:"center",
            
         }}>
-          <Link to="/UserHomeAfter">
             <UrlInput/>
-            </Link>
-          
+            <SectionScrapList/>
+            <SectionButton name="Save"/>
         </section>
 
 
@@ -64,4 +64,4 @@ function UserHome(){
     );
 }
 
-export default UserHome;
+export default UserHomeAfter;

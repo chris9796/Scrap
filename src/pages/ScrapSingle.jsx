@@ -4,11 +4,14 @@ import "../components_css/Page.css"
 import "../components_css/NavBar.css";
 import NavLogo from '../components/NavLogo';
 import NavButton from '../components/NavButton.jsx';
-import UrlInput from "../components/UrlInput.jsx";
 import AsideUserBox from "../components/AsideUserBox.jsx";
 import AsideButton from "../components/AsideButton.jsx";
 import AsideTitle from "../components/AsideTitle.jsx";
-function UserHome(){
+import SectionScrapList from "../components/SectionScrapList.jsx";
+import SectionButton from "../components/SectionButton";
+import SectionTitle from "../components/SectionTitle.jsx"
+import SectionScrapSource from "../components/SectionScrapSource .jsx";
+function ScrapSingle(){
 
 
     return(
@@ -49,14 +52,14 @@ function UserHome(){
 
         </aside>
         <section style={{
-            
             alignItems:"center",
            
         }}>
-          <Link to="/UserHomeAfter">
-            <UrlInput/>
-            </Link>
-          
+            <SectionTitle title="Article Title - Big" size="60px"/>
+            <SectionScrapList/>
+            <SectionScrapSource Author="heo" />
+            <SectionButton name ="Edit"/>
+            <SectionButton name ="Cancel" color="red"/>
         </section>
 
 
@@ -64,4 +67,4 @@ function UserHome(){
     );
 }
 
-export default UserHome;
+export default ScrapSingle;
