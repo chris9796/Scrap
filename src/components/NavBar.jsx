@@ -1,6 +1,6 @@
 import React from 'react';
 import "../components_css/NavBar.css";
-import Logo from "../Logo-Scrap-480x480.png"
+import NavLogo from './NavLogo';
 import NavButton from './NavButton';
 import {Link} from "react-router-dom"
 function NavBar(){
@@ -8,14 +8,15 @@ function NavBar(){
 
     return(
         <nav className='NavBar'>
-            
-            <img src={Logo} style={{height:"60px"}} alt='Logo'/>
-           
+            <Link to="/">
+            <NavLogo/>
+            </Link>
             <Link to="/SignUp">
             <NavButton name="Sign Up"/>
             </Link>
+            <Link to="/SignIn">
             <NavButton name="Sign In"/>
-
+            </Link>
 
 
         </nav>

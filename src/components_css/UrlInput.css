@@ -5,9 +5,11 @@ border: 0px;
 color: #839CDD;
 border-radius: 10px;
 }
-img{
+.SearchLogo{
     width: 60px;
     height: 60px;
+   
+    
 }
 .UrlInput::placeholder{
     color: #839CDD;
@@ -15,6 +17,7 @@ img{
 .SearchWrap{
     background-color: #151C2E;
     border: solid 1px black;
-    display: inline-block;
+    
+    
 }
 /* 839CDD */

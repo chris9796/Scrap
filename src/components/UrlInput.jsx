@@ -6,7 +6,7 @@ function UrlInput(){
     return(
         <div className="SearchWrap">
             <input type="text" className="UrlInput" placeholder="Paste Url.."/>
-            <img src={Search} alt="Search" />
+            <img src={Search} alt="Search" className="SearchLogo" />
         </div>
 
     );

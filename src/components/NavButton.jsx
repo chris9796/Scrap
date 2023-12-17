@@ -3,7 +3,9 @@ import "../components_css/NavButton.css"
 function NavButton(props){
 
     return(
-            <button className='NavButton'>
+            <button className='NavButton' style={{
+                cursor:"pointer"
+            }}>
                 {props.name}
             </button>
     );
