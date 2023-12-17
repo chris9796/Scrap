@@ -1,0 +1,12 @@
+
+.SectionInput{
+color: #839CDD;
+ display:block;
+border: 1px solid black;
+border-radius: 10px;
+background-color: #151C2E ;
+font-size: 24px;
+}
+.SectionInput::placeholder{
+    color: #839CDD;
+}
