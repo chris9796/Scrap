@@ -1,18 +1,29 @@
 import UrlInput from "../components/UrlInput.jsx";
 import "../components_css/Page.css"
-import NavBar from "../components/NavBar.jsx"
 import SectionTitle from "../components/SectionTitle.jsx";
 import "../components_css/IndexPage.css"
-
+//
+import "../components_css/NavBar.css";
+import NavLogo from '../components/NavLogo';
+import NavButton from '../components/NavButton.jsx';
+import {Link} from "react-router-dom"
 
 function Index(){
 
 return(
+    <div className="Page">
 
-    <>
-        <div className="Page">
-
-        <NavBar/>
+        <nav className='NavBar'>
+            <Link to="/">
+            <NavLogo/>
+            </Link>
+            <Link to="/SignUp">
+            <NavButton name="Sign Up"/>
+            </Link>
+            <Link to="/SignIn">
+            <NavButton name="Sign In"/>
+            </Link>
+        </nav>
         <section>
         <SectionTitle title="Scrap" size="100px"/>
             <form action="">
@@ -23,9 +34,10 @@ return(
          </section>
        
          </div>
-</>
+
       );
    
 }
 
 export default Index;
+

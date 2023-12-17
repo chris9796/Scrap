@@ -4,7 +4,8 @@ function NavButton(props){
 
     return(
             <button className='NavButton' style={{
-                cursor:"pointer"
+                cursor:"pointer",
+                color:props.color
             }}>
                 {props.name}
             </button>
