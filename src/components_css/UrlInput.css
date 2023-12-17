@@ -4,17 +4,10 @@ background-color: #151C2E;
 border: 0px;
 color: #839CDD;
 border-radius: 10px;
-
-
-
-
 }
 .SearchLogo{
     width: 60px;
     height: 60px;
-  
-   
-    
 }
 .UrlInput::placeholder{
     color: #839CDD;
