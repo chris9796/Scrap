@@ -7,6 +7,8 @@ import UserHome from "./pages/UserHome.jsx";
 import UserHomeAfter from "./pages/UserHomeAfter.jsx";
 import MyScraps from "./pages/MyScraps.jsx";
 import ScrapSingle from "./pages/ScrapSingle.jsx";
+import SettingsChangePassword from "./pages/SettingsChangePassword.jsx";
+import SettingsDeleteAccount from "./pages/SettingsDeleteAccount.jsx";
 function App() {
   return (
     <>
@@ -21,6 +23,8 @@ function App() {
           <Route path="/UserHomeAfter" element={<UserHomeAfter/>}/>
           <Route path="/MyScraps" element={<MyScraps/>}/>
           <Route path="/ScrapSingle" element={<ScrapSingle/>}/>
+          <Route path="/SettingsChangePassword" element={<SettingsChangePassword/>}/>
+          <Route path="/SettingsDeleteAccount" element={<SettingsDeleteAccount/>}/>
       </Routes>
 
       

@@ -16,13 +16,13 @@ function UserHome(){
             position:"flex"
         }}>
             <nav className='NavBar'>
-            <Link to="/">
+            <Link to="/UserHome">
             <NavLogo/>
             </Link>
-            <Link>
+            <Link to="/">
             <NavButton name="Logout" color="red"/>
             </Link>
-            <Link >
+            <Link to="/SettingsChangePassword">
             <NavButton name="Settings"/>
             </Link>
         </nav>

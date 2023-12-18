@@ -28,10 +28,17 @@ function SectionScrapCard(props){
                 <li>5</li>
                 <li>5</li>
                 <li>5</li>
+                <li>5</li>
+                <li>5</li>
+                <li>5</li>
+                <li>5</li>
+                <li>5</li>
+                <li>5</li>
             </ul>
             <div style={{
                 fontSize:"10px",
-                fontWeight:"lighter"
+               
+                color:"white"
             }}>Source Url</div>
         </div>
     );

@@ -21,7 +21,7 @@ function SignUp(){
                 </Link>
             </nav>
             <section>
-                <SectionTitle title="Sign Up" size="100px"/>
+                <SectionTitle title="Sign Up" size="100px" color="white"/>
                 <form action="" style={{
                     margin: "50px"
 
@@ -41,7 +41,7 @@ function SignUp(){
                     Already Sign Up? Please <Link to="/SignIn">SignIn</Link>
                 </div>
                 <Link to="/SignIn">
-                <SectionButton name="SignUp"/>
+                <SectionButton name="SignUp" color="white"/>
                 </Link>
                 </div>
                 

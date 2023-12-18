@@ -23,7 +23,7 @@ function MyScraps(){
             <Link>
             <NavButton name="Logout" color="red"/>
             </Link>
-            <Link >
+            <Link to="/SettingsChangePassword">
             <NavButton name="Settings"/>
             </Link>
         </nav>
@@ -50,7 +50,7 @@ function MyScraps(){
 
         </aside>
         <section>
-        <SectionTitle title="My Scraps" size="60px"/>
+        <SectionTitle title="My Scraps" size="60px" color="white"/>
             <div className="SectionScrapCardBox"
             style={{
                 position:"flex",

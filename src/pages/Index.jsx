@@ -25,7 +25,7 @@ return(
             </Link>
         </nav>
         <section>
-        <SectionTitle title="Scrap" size="100px"/>
+        <SectionTitle title="Scrap" size="100px" color="white"/>
             <form action="">
                 
                 <br></br>

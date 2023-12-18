@@ -18,13 +18,13 @@ function UserHomeAfter(){
             position:"flex"
         }}>
             <nav className='NavBar'>
-            <Link to="/">
+            <Link to="/UserHome">
             <NavLogo/>
             </Link>
-            <Link>
+            <Link to="/">
             <NavButton name="Logout" color="red"/>
             </Link>
-            <Link >
+            <Link to="/SettingsChangePassword">
             <NavButton name="Settings"/>
             </Link>
         </nav>
@@ -56,7 +56,9 @@ function UserHomeAfter(){
         }}>
             <UrlInput/>
             <SectionScrapList/>
-            <SectionButton name="Save"/>
+            <Link to="/MyScraps">
+            <SectionButton name="Save" color="white"/>
+            </Link>
         </section>
 
 

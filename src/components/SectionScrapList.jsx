@@ -5,7 +5,7 @@ function SectionScrapList(){
 
     return(
         <ul className="SectionScrapList">
-            <ScrapListLine summary="넌 첫번째야 "/>
+            <ScrapListLine summary="넌 첫번째야 sjs djkfasjlfsdjfjssdafdsfsadfassdfdaljkasdlkfdskf"/>
             <ScrapListLine summary="넌 2번째야 "/>
             <ScrapListLine summary="넌 3번째야 "/>
             <ScrapListLine summary="넌 4번째야 "/>
@@ -15,7 +15,6 @@ function SectionScrapList(){
             <ScrapListLine summary="넌 8번째야 "/>
             <ScrapListLine summary="넌 9번째야 "/>
             <ScrapListLine summary="넌 10번째야 "/>
-            
         </ul>
     );
 }

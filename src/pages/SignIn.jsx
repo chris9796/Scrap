@@ -25,7 +25,7 @@ function SignIn(){
 
 
         <section>
-        <SectionTitle title="Sign In" size="100px"/>
+        <SectionTitle title="Sign In" size="100px" color="white"/>
         <form action="" style={{
             margin: "50px"
 
@@ -42,7 +42,7 @@ function SignIn(){
          
         
          <Link to="/UserHome">
-         <SectionButton name="Sign In"/>
+         <SectionButton name="Sign In" color="white"/>
          </Link>
          </div>
         

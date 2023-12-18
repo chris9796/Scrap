@@ -16,7 +16,7 @@ function ScrapSingle(){
 
     return(
         <div className="Page" style={{
-            position:"flex"
+               
         }}>
             <nav className='NavBar'>
             <Link to="/">
@@ -25,7 +25,7 @@ function ScrapSingle(){
             <Link>
             <NavButton name="Logout" color="red"/>
             </Link>
-            <Link >
+            <Link to="/SettingsChangePassword">
             <NavButton name="Settings"/>
             </Link>
         </nav>
@@ -53,13 +53,24 @@ function ScrapSingle(){
         </aside>
         <section style={{
             alignItems:"center",
-           
+            display:"flex",
+            flexDirection:"column",
+            
         }}>
-            <SectionTitle title="Article Title - Big" size="60px"/>
+            <SectionTitle title="Article Title - Big" size="60px" color="#839CDD"/>
             <SectionScrapList/>
-            <SectionScrapSource Author="heo" />
-            <SectionButton name ="Edit"/>
-            <SectionButton name ="Cancel" color="red"/>
+            <SectionScrapSource Author="Heo Eun Seongdㄴㅇㄴsadfsafsfsdasdfdfsafdskfsadjsdfklsdaklfjkl" UrlSource="https://hihi" />
+            <div style={{
+                display:"flex",
+                justifyContent: "space-between" ,
+                gap: "40px"
+            }}>
+            <SectionButton name ="Edit" color="white"/>
+            <SectionButton name ="Delete" color="red"/>
+            </div>
+            
+
+            
         </section>
 
 

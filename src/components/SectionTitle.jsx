@@ -3,7 +3,7 @@ import React from "react";
 function SectionTitle(props){
     const style = {
         fontSize: props.size,
-        color:"white"
+        color:props.color
     }
     return(
         <span style={style}>
