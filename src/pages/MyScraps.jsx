@@ -10,6 +10,7 @@ import AsideTitle from "../components/AsideTitle.jsx";
 import SectionTitle from "../components/SectionTitle.jsx";
 import SectionScrapCard from "../components/SectionScrapCard .jsx";
 function MyScraps(){
+    
 
 
     return(
@@ -17,11 +18,11 @@ function MyScraps(){
             position:"flex"
         }}>
             <nav className='NavBar'>
-            <Link to="/">
+            <Link to="/UserHome">
             <NavLogo/>
             </Link>
             <Link>
-            <NavButton name="Logout" color="red"/>
+            <NavButton name="Sign Out" color="red"/>
             </Link>
             <Link to="/SettingsChangePassword">
             <NavButton name="Settings"/>

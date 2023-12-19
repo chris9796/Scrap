@@ -22,7 +22,7 @@ function UserHomeAfter(){
             <NavLogo/>
             </Link>
             <Link to="/">
-            <NavButton name="Logout" color="red"/>
+            <NavButton name="Sign Out" color="red"/>
             </Link>
             <Link to="/SettingsChangePassword">
             <NavButton name="Settings"/>

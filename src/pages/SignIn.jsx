@@ -17,7 +17,7 @@ function SignIn(){
             <NavLogo/>
             </Link>
             <Link to="/SignUp">
-            <NavButton name="SignUp"/>
+            <NavButton name="Sign Up"/>
             </Link>
            
         </nav>

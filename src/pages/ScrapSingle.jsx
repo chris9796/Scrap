@@ -23,7 +23,7 @@ function ScrapSingle(){
             <NavLogo/>
             </Link>
             <Link>
-            <NavButton name="Logout" color="red"/>
+            <NavButton name="Sign Out" color="red"/>
             </Link>
             <Link to="/SettingsChangePassword">
             <NavButton name="Settings"/>

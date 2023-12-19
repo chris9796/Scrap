@@ -20,7 +20,7 @@ function UserHome(){
             <NavLogo/>
             </Link>
             <Link to="/">
-            <NavButton name="Logout" color="red"/>
+            <NavButton name="Sign Out" color="red"/>
             </Link>
             <Link to="/SettingsChangePassword">
             <NavButton name="Settings"/>
@@ -51,12 +51,21 @@ function UserHome(){
         <section style={{
             
             alignItems:"center",
+           height:"calc(100vh - 60px)",
+           width:"80%",
+           
+          
            
         }}>
+            <div style={{
+                position:"relative",
+                top:"0%",
+              
+            }}>
           <Link to="/UserHomeAfter">
             <UrlInput/>
             </Link>
-          
+            </div>
         </section>
 
 

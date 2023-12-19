@@ -24,11 +24,17 @@ return(
             <NavButton name="Sign In"/>
             </Link>
         </nav>
-        <section>
+        <section style={{
+              position: "absolute",
+              top: "40%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+              textAlign: "center"
+        }}>
         <SectionTitle title="Scrap" size="100px" color="white"/>
             <form action="">
                 
-                <br></br>
+                
                 <UrlInput/>
             </form>
          </section>

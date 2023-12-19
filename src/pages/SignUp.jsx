@@ -17,7 +17,7 @@ function SignUp(){
                 <NavLogo/>
                 </Link>
                 <Link to="/SignIn">
-                <NavButton name="SignIn"/>
+                <NavButton name="Sign In"/>
                 </Link>
             </nav>
             <section>
@@ -38,10 +38,16 @@ function SignUp(){
                 <SectionInput name="Confirm Password"/>
                 <SectionInput name="Email"/>
                 <div style={{color:"white"}}>
-                    Already Sign Up? Please <Link to="/SignIn">SignIn</Link>
+                    Already Sign Up? Please 
+                    &nbsp;
+                    <Link to="/SignIn">
+                    <span>
+                      Sign In
+                    </span>
+                    </Link>
                 </div>
                 <Link to="/SignIn">
-                <SectionButton name="SignUp" color="white"/>
+                <SectionButton name="Sign Up" color="white"/>
                 </Link>
                 </div>
                 

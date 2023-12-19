@@ -12,7 +12,14 @@ import SettingsDeleteAccount from "./pages/SettingsDeleteAccount.jsx";
 function App() {
   return (
     <>
-    
+       <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+        rel="stylesheet"
+      />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
+        rel="stylesheet"
+      />
    
 
       <Routes>
