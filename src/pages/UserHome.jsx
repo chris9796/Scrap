@@ -13,14 +13,14 @@ function UserHome(){
 
     return(
         <div className="Page" style={{
-            position:"flex"
+            
         }}>
             <nav className='NavBar'>
             <Link to="/UserHome">
             <NavLogo/>
             </Link>
             <Link to="/">
-            <NavButton name="Sign Out" color="red"/>
+            <NavButton name="Sign Out" color="#EE5656"/>
             </Link>
             <Link to="/SettingsChangePassword">
             <NavButton name="Settings"/>
@@ -30,11 +30,15 @@ function UserHome(){
             backgroundColor:"#151C2E",
             width:"20%",
             height: "calc(100vh - 60px)",
-            margin:"0"
+            margin:"0",
+            display:"inline-block"
         }}>
             
             <AsideUserBox/>
-            <Link to="/MyScraps">
+            <Link to="/MyScraps" style={{
+                        textDecorationLine:"none",
+                    
+                    }}>
             <AsideButton/>
             </Link>
 
@@ -49,21 +53,29 @@ function UserHome(){
 
         </aside>
         <section style={{
-            
-            alignItems:"center",
+            width:"80%",
+            float:"right",
            height:"calc(100vh - 60px)",
-           width:"80%",
+           display:"flex",
+           justifyContent:"center",
            
-          
-           
+            
+
+
         }}>
             <div style={{
-                position:"relative",
-                top:"0%",
+                
               
             }}>
-          <Link to="/UserHomeAfter">
+          <Link to="/UserHomeAfter" style={{
+                        textDecorationLine:"none",
+                        
+                    }}>
+            <div style={{
+                cursor:"pointer"
+            }}>
             <UrlInput/>
+            </div>
             </Link>
             </div>
         </section>

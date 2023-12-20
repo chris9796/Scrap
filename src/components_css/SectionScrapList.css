@@ -5,4 +5,12 @@
     background-color: #151C2E;
     border-radius: 10px;
     font-size: 30px;
+    width: 1060px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 10px 50px;
+    gap: 15px;
+    margin: 0;
+    
+    
 }

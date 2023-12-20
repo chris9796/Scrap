@@ -23,7 +23,7 @@ function SettingsChangePassword(){
             <NavLogo/>
             </Link>
             <Link to="/">
-            <NavButton name="Sign Out" color="red"/>
+            <NavButton name="Sign Out" color="#EE5656"/>
             </Link>
             <Link to="/SettingsChangePassword">
             <NavButton name="Settings"/>
@@ -33,11 +33,15 @@ function SettingsChangePassword(){
             backgroundColor:"#151C2E",
             width:"20%",
             height: "calc(100vh - 60px)",
-            margin:"0"
+            margin:"0",
+            display:"inline-block"
         }}>
             
             <AsideUserBox/>
-            <Link to="/MyScraps">
+            <Link to="/MyScraps" style={{
+                        textDecorationLine:"none",
+                        
+                    }}>
             <AsideButton/>
             </Link>
             <AsideText name="Settings"/>
@@ -45,10 +49,14 @@ function SettingsChangePassword(){
                 display:"flex",
                 flexDirection:"column",
                 gap:"20px"
+
             }}>
                 <AsideSettingText name="Change Password" color="white" size="20px"/>
-                <Link to="/SettingsDeleteAccount">
-                <AsideSettingText name="Delete Account" color="red" size="20px"/>
+                <Link to="/SettingsDeleteAccount" style={{
+                        textDecorationLine:"none",
+                        
+                    }}>
+                <AsideSettingText name="Delete Account" color="#EE5656" size="20px"/>
                 </Link>
             </ul>
           
@@ -56,15 +64,25 @@ function SettingsChangePassword(){
 
         </aside>
         <section style={{
+              alignItems:"center",
+              
+              
+              width:"80%",
+              float:"right",
+             height:"calc(100vh - 60px)",
+             display:"flex",
+             alignItems:"center",
+             flexDirection:"column",
+            marginTop:"100px",
+              gap:"5px"
             
-            alignItems:"center",
            
         }}>
         <SectionTitle color="white" title="Change Password" size="60px"/>
         <form action="" style={{
             display:"flex",
             flexDirection:"column",
-            gap:"30px",
+            gap:"20px",
             alignItems:"center",
             margin:"30px"
 
@@ -75,8 +93,8 @@ function SettingsChangePassword(){
         <div style={{
             display:"flex",
             flexDirection:"row",
-            gap:"30px"
-
+            gap:"30px",
+            marginTop:"30px"
         }}>
           <SectionButton name="Confirm" color="white"/>
           <SectionButton name="Cancel" color="#FFC000"/>

@@ -22,7 +22,7 @@ function UserHomeAfter(){
             <NavLogo/>
             </Link>
             <Link to="/">
-            <NavButton name="Sign Out" color="red"/>
+            <NavButton name="Sign Out" color="#EE5656"/>
             </Link>
             <Link to="/SettingsChangePassword">
             <NavButton name="Settings"/>
@@ -32,11 +32,15 @@ function UserHomeAfter(){
             backgroundColor:"#151C2E",
             width:"20%",
             height: "calc(100vh - 60px)",
-            margin:"0"
+            margin:"0",
+            display:"inline-block"
         }}>
             
             <AsideUserBox/>
-            <Link to="/MyScraps">
+            <Link to="/MyScraps" style={{
+                        textDecorationLine:"none",
+                        
+                    }}>
             <AsideButton/>
             </Link>
 
@@ -51,12 +55,21 @@ function UserHomeAfter(){
 
         </aside>
         <section style={{
-            alignItems:"center",
+               width:"80%",
+               float:"right",
+              height:"calc(100vh - 60px)",
+              display:"flex",
+              alignItems:"center",
+              flexDirection:"column",
+            gap:"30px"
            
         }}>
             <UrlInput/>
             <SectionScrapList/>
-            <Link to="/MyScraps">
+            <Link to="/MyScraps" style={{
+                        textDecorationLine:"none",
+                        
+                    }}>
             <SectionButton name="Save" color="white"/>
             </Link>
         </section>

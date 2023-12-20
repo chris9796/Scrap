@@ -23,7 +23,7 @@ function ScrapSingle(){
             <NavLogo/>
             </Link>
             <Link>
-            <NavButton name="Sign Out" color="red"/>
+            <NavButton name="Sign Out" color="#EE5656"/>
             </Link>
             <Link to="/SettingsChangePassword">
             <NavButton name="Settings"/>
@@ -33,11 +33,15 @@ function ScrapSingle(){
             backgroundColor:"#151C2E",
             width:"20%",
             height: "calc(100vh - 60px)",
-            margin:"0"
+            margin:"0",
+            display:"inline-block"
         }}>
             
             <AsideUserBox/>
-            <Link to="/MyScraps">
+            <Link to="/MyScraps" style={{
+                        textDecorationLine:"none",
+                        
+                    }}>
             <AsideButton/>
             </Link>
 
@@ -55,18 +59,28 @@ function ScrapSingle(){
             alignItems:"center",
             display:"flex",
             flexDirection:"column",
+            width:"80%",
+            float:"right",
+           height:"calc(100vh - 60px)",
+           display:"flex",
+           alignItems:"center",
+           flexDirection:"column",
+            justifyContent:"center",
+            gap:"10px"
             
         }}>
-            <SectionTitle title="Article Title - Big" size="60px" color="#839CDD"/>
+            <SectionTitle title="Article Title - Big" size="50px" color="#839CDD"/>
             <SectionScrapList/>
-            <SectionScrapSource Author="Heo Eun Seongdㄴㅇㄴsadfsafsfsdasdfdfsafdskfsadjsdfklsdaklfjkl" UrlSource="https://hihi" />
+            <SectionScrapSource Author="Heo Eun Seongdㄴㅇㄴsadfsafsfsdasdfdfsafdskfsadjsdfklsdaklfjkl" 
+            UrlSource="https://www.notion.so/jaychung-public-scrap/React-9a55f1b9895b4c99b8af55a6cd186c99" />
             <div style={{
+
                 display:"flex",
                 justifyContent: "space-between" ,
-                gap: "40px"
+                gap: "100px"
             }}>
             <SectionButton name ="Edit" color="white"/>
-            <SectionButton name ="Delete" color="red"/>
+            <SectionButton name ="Delete" color="#EE5656"/>
             </div>
             
 

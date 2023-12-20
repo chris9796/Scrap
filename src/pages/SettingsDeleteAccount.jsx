@@ -23,7 +23,7 @@ function SettingDeleteAccount(){
             <NavLogo/>
             </Link>
             <Link to="/">
-            <NavButton name="Sign Out" color="red"/>
+            <NavButton name="Sign Out" color="#EE5656"/>
             </Link>
             <Link to="/SettingsChangePassword">
             <NavButton name="Settings"/>
@@ -33,11 +33,15 @@ function SettingDeleteAccount(){
             backgroundColor:"#151C2E",
             width:"20%",
             height: "calc(100vh - 60px)",
-            margin:"0"
+            margin:"0",
+            display:"inline-block"
         }}>
             
             <AsideUserBox/>
-            <Link to="/MyScraps">
+            <Link to="/MyScraps" style={{
+                        textDecorationLine:"none",
+                        
+                    }}>
             <AsideButton/>
             </Link>
             <AsideText name="Settings"/>
@@ -46,10 +50,13 @@ function SettingDeleteAccount(){
                 flexDirection:"column",
                 gap:"20px"
             }}>
-                <Link to="/SettingsChangePassword">
+                <Link to="/SettingsChangePassword" style={{
+                        textDecorationLine:"none",
+                        
+                    }}>
                 <AsideSettingText name="Change Password" color="white" size="20px"/>
                 </Link>
-                <AsideSettingText name="Delete Account" color="red" size="20px"/>
+                <AsideSettingText name="Delete Account" color="#EE5656" size="20px"/>
             </ul>
           
           
@@ -58,27 +65,35 @@ function SettingDeleteAccount(){
         <section style={{
             
             alignItems:"center",
+            width:"80%",
+            float:"right",
+           height:"calc(100vh - 60px)",
+           display:"flex",
+           alignItems:"center",
+           flexDirection:"column",
+          marginTop:"100px",
+            gap:"5px"
+          
            
         }}>
-        <SectionTitle color="red" title="Delete Account" size="60px"/>
+        <SectionTitle color="#EE5656" title="Delete Account" size="60px"  />
         <form action="" style={{
-            display:"flex",
-            flexDirection:"column",
-            gap:"30px",
-            alignItems:"center",
-            margin:"30px"
-
+           display:"flex",
+           flexDirection:"column",
+           gap:"20px",
+           alignItems:"center",
+           margin:"30px"
         }}>
           <SectionInput name="Password"/>
           <SectionInput name="Confirm Password"/>
-          <SectionTitle title="!This action is irreversible." color="red" size="15px"/>
+          <SectionTitle title="!This action is irreversible." color="#EE5656" size="15px"/>
         <div style={{
-            display:"flex",
-            flexDirection:"row",
-            gap:"30px"
-
+           display:"flex",
+           flexDirection:"row",
+           gap:"30px",
+           
         }}>
-          <SectionButton name="Delete" color="red"/>
+          <SectionButton name="Delete" color="#EE5656"/>
           <SectionButton name="Cancel" color="#FFC000"/>
           </div>
           </form>

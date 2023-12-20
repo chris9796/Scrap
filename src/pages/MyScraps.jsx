@@ -21,8 +21,8 @@ function MyScraps(){
             <Link to="/UserHome">
             <NavLogo/>
             </Link>
-            <Link>
-            <NavButton name="Sign Out" color="red"/>
+            <Link to="/">
+            <NavButton name="Sign Out" color="#EE5656" />
             </Link>
             <Link to="/SettingsChangePassword">
             <NavButton name="Settings"/>
@@ -32,11 +32,15 @@ function MyScraps(){
             backgroundColor:"#151C2E",
             width:"20%",
             height: "calc(100vh - 60px)",
-            margin:"0"
+            margin:"0",
+            display:"inline-block"
         }}>
             
             <AsideUserBox/>
-            <Link to="/MyScraps">
+            <Link to="/MyScraps" style={{
+                        textDecorationLine:"none",
+                        
+                    }}>
             <AsideButton/>
             </Link>
 
@@ -50,17 +54,34 @@ function MyScraps(){
             </div>
 
         </aside>
-        <section>
+        <section style={{
+            width:"80%",
+            float:"right",
+           height:"calc(100vh - 60px)",
+           display:"flex",
+           alignItems:"center",
+           flexDirection:"column",
+            justifyContent:"center"
+        }}>
+            <div style={{
+                marginBottom:"100px",
+                textAlign:"center",
+                alignItems:"center"
+
+            }}>
         <SectionTitle title="My Scraps" size="60px" color="white"/>
+        
             <div className="SectionScrapCardBox"
             style={{
-                position:"flex",
+                
                 
             }}>
                 <SectionScrapCard title="im shinhan" UrlSource="" />
                 <SectionScrapCard title="나는야 영끌족" UrlSource=""/>
                 <SectionScrapCard title="나는야 바보" UrlSource=""/>
             </div>
+            </div>
+            
         </section>
 
 

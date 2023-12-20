@@ -3,7 +3,8 @@ import React from "react";
 function ScrapListLine(props){
 
     return(
-        <li>{props.summary}</li>
+        <li style={{
+        }}>{props.summary}</li>
     );
 }
 

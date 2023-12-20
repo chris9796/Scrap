@@ -24,7 +24,19 @@ function SignIn(){
 
 
 
-        <section>
+        <section style={{
+             width:"100%",
+             float:"right",
+            height:"calc(100vh - 60px)",
+            display:"flex",
+            flexDirection:"column",
+            marginTop:"150px",
+            textAlign:"center"
+
+            
+            
+        }}>
+
         <SectionTitle title="Sign In" size="100px" color="white"/>
         <form action="" style={{
             margin: "50px"
@@ -41,7 +53,10 @@ function SignIn(){
          <SectionInput name="Password"/>
          
         
-         <Link to="/UserHome">
+         <Link to="/UserHome" style={{
+                        textDecorationLine:"none",
+                    
+                    }}>
          <SectionButton name="Sign In" color="white"/>
          </Link>
          </div>

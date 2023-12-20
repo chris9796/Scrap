@@ -8,7 +8,8 @@ function SectionScrapSource(props){
             textAlign:"left",
             padding:"20px",
             borderRadius:"10px",
-            marginBottom:"20px"
+            
+            width:"1070px"
         }}>
             <div className="ScrapSourceAuthor" style={{
                 color:"#839CDD",

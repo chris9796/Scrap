@@ -1,7 +1,7 @@
 import UrlInput from "../components/UrlInput.jsx";
 import "../components_css/Page.css"
 import SectionTitle from "../components/SectionTitle.jsx";
-import "../components_css/IndexPage.css"
+
 //
 import "../components_css/NavBar.css";
 import NavLogo from '../components/NavLogo';
