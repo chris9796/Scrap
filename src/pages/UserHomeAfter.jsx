@@ -1,15 +1,13 @@
 import React from "react";
 import {Link} from "react-router-dom"
-import "../components_css/Page.css"
-import "../components_css/NavBar.css";
-import NavLogo from '../components/NavLogo';
-import NavButton from '../components/NavButton.jsx';
-import UrlInput from "../components/UrlInput.jsx";
-import AsideUserBox from "../components/AsideUserBox.jsx";
-import AsideButton from "../components/AsideButton.jsx";
-import AsideTitle from "../components/AsideTitle.jsx";
-import SectionScrapList from "../components/SectionScrapList.jsx";
-import SectionButton from "../components/SectionButton";
+import NavLogo from '../common/NavLogo.jsx';
+import NavButton from '../common/NavButton/NavButton.jsx';
+import UrlInput from "../common/UrlInput/UrlInput.jsx";
+import AsideUserBox from "../common/AsideUserBox/AsideUserBox.jsx";
+import AsideButton from "../common/AsideButton/AsideButton.jsx";
+import AsideTitle from "../common/AsideTitle.jsx";
+import SectionScrapList from "../common/SectionScrapList/SectionScrapList.jsx";
+import SectionButton from "../common/SectionButton.jsx";
 function UserHomeAfter(){
 
 

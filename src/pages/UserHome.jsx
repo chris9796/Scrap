@@ -1,13 +1,9 @@
 import React from "react";
 import {Link} from "react-router-dom"
-import "../components_css/Page.css"
-import "../components_css/NavBar.css";
-import NavLogo from '../components/NavLogo';
-import NavButton from '../components/NavButton.jsx';
-import UrlInput from "../components/UrlInput.jsx";
-import AsideUserBox from "../components/AsideUserBox.jsx";
-import AsideButton from "../components/AsideButton.jsx";
-import AsideTitle from "../components/AsideTitle.jsx";
+import UrlInput from "../common/UrlInput/UrlInput.jsx";
+import AsideUserBox from "../common/AsideUserBox/AsideUserBox.jsx";
+import AsideButton from "../common/AsideButton/AsideButton.jsx";
+import AsideTitle from "../common/AsideTitle.jsx";
 function UserHome(){
 
 
@@ -15,17 +11,7 @@ function UserHome(){
         <div className="Page" style={{
             
         }}>
-            <nav className='NavBar'>
-            <Link to="/UserHome">
-            <NavLogo/>
-            </Link>
-            <Link to="/">
-            <NavButton name="Sign Out" color="#EE5656"/>
-            </Link>
-            <Link to="/SettingsChangePassword">
-            <NavButton name="Settings"/>
-            </Link>
-        </nav>
+            
         <aside style={{
             backgroundColor:"#151C2E",
             width:"20%",

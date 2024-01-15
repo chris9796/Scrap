@@ -1,0 +1,14 @@
+.NavBar{
+    background-color: #1C222E;
+    height: 60px;
+    display: flex;
+    
+}
+.NavButtonWrap{
+        display: flex;
+        justify-content: flex-end; 
+        align-items: center;   
+        height: 100%;
+        width: 100%;
+        
+}
