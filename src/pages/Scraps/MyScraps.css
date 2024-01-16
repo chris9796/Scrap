@@ -1,0 +1,10 @@
+.myscraps{
+    width:80%;
+            float:right;
+           height:calc(100vh - 60px);
+           display:flex;
+           align-items:center;
+           flex-direction:column;
+            justify-content:center;
+            margin-bottom:100px;           
+}

@@ -2,6 +2,7 @@
     background-color: #1C222E;
     height: 60px;
     display: flex;
+    width: 100%;
     
 }
 .NavButtonWrap{
@@ -11,4 +12,12 @@
         height: 100%;
         width: 100%;
         
+}
+/* .section{
+    width: 100%;
+    height: calc(100%-60px);
+    background-color: #1C222E;
+} */
+.page{
+    height: calc(100% -60px);
 }
