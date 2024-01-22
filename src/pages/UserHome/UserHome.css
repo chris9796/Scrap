@@ -1,15 +1,12 @@
 .userhomesection{
-   display: flex;
-    height: 100%;
-    width: 80%;
-    height: calc(100% - 60px); 
-    flex: 1;
-    justify-content: center;
-   position: fixed;
+    
    
  
     /* transform: translate(-50%, -50%); */
     display: inline-block;
+}
+.Link{
+    
 }
 /* <aside style={{
     backgroundColor:"#151C2E",

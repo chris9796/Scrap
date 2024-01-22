@@ -1,11 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-import NavLogo from "../../common/NavLogo.jsx";
-import NavButton from "../../common/NavButton/NavButton.jsx";
-import AsideUserBox from "../../common/AsideUserBox/AsideUserBox.jsx";
-import AsideButton from "../../common/AsideButton/AsideButton.jsx";
-import AsideTitle from "../../common/AsideTitle.jsx";
+
 import SectionTitle from "../../common/SectionTitle/SectionTitle.jsx";
 import SectionScrapCard from "../../common/SectionScrapCard .jsx";
 import AsideLayOut from "../../layout/AsideLayOut/AsideLayOut.jsx";

@@ -1,11 +1,13 @@
-import React from "react";
-import "./SectionInput.css"
-function SectionInput(props){
-    
-    return(
-        
-        <input type="text" placeholder={props.name} className="SectionInput"/>
-
+import "./SectionInput.css";
+function SectionInput(props) {
+    return (
+        <input
+            onChange={props.onChange}
+            type={props.type}
+            placeholder={props.name}
+            className="SectionInput"
+            value={props.value}
+        />
     );
 }
 
